@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49C086302C5B90C300AF2F80 /* SperrbildschirmApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C0862F2C5B90C300AF2F80 /* SperrbildschirmApp.swift */; };
+		49C086322C5B90C300AF2F80 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C086312C5B90C300AF2F80 /* ContentView.swift */; };
+		49C086342C5B90C500AF2F80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49C086332C5B90C500AF2F80 /* Assets.xcassets */; };
+		49C086372C5B90C500AF2F80 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49C086362C5B90C500AF2F80 /* Preview Assets.xcassets */; };
+		49C086412C5B90C500AF2F80 /* SperrbildschirmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C086402C5B90C500AF2F80 /* SperrbildschirmTests.swift */; };
+		49C0864B2C5B90C500AF2F80 /* SperrbildschirmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C0864A2C5B90C500AF2F80 /* SperrbildschirmUITests.swift */; };
+		49C0864D2C5B90C500AF2F80 /* SperrbildschirmUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C0864C2C5B90C500AF2F80 /* SperrbildschirmUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		49C0863D2C5B90C500AF2F80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49C086242C5B90C300AF2F80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49C0862B2C5B90C300AF2F80;
+			remoteInfo = Sperrbildschirm;
+		};
+		49C086472C5B90C500AF2F80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49C086242C5B90C300AF2F80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49C0862B2C5B90C300AF2F80;
+			remoteInfo = Sperrbildschirm;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		49C0862C2C5B90C300AF2F80 /* Sperrbildschirm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sperrbildschirm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		49C0862F2C5B90C300AF2F80 /* SperrbildschirmApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SperrbildschirmApp.swift; sourceTree = "<group>"; };
+		49C086312C5B90C300AF2F80 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		49C086332C5B90C500AF2F80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		49C086362C5B90C500AF2F80 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		49C0863C2C5B90C500AF2F80 /* SperrbildschirmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SperrbildschirmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		49C086402C5B90C500AF2F80 /* SperrbildschirmTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SperrbildschirmTests.swift; sourceTree = "<group>"; };
+		49C086462C5B90C500AF2F80 /* SperrbildschirmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SperrbildschirmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		49C0864A2C5B90C500AF2F80 /* SperrbildschirmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SperrbildschirmUITests.swift; sourceTree = "<group>"; };
+		49C0864C2C5B90C500AF2F80 /* SperrbildschirmUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SperrbildschirmUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49C086292C5B90C300AF2F80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49C086392C5B90C500AF2F80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49C086432C5B90C500AF2F80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49C086232C5B90C300AF2F80 = {
+			isa = PBXGroup;
+			children = (
+				49C0862E2C5B90C300AF2F80 /* Sperrbildschirm */,
+				49C0863F2C5B90C500AF2F80 /* SperrbildschirmTests */,
+				49C086492C5B90C500AF2F80 /* SperrbildschirmUITests */,
+				49C0862D2C5B90C300AF2F80 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49C0862D2C5B90C300AF2F80 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49C0862C2C5B90C300AF2F80 /* Sperrbildschirm.app */,
+				49C0863C2C5B90C500AF2F80 /* SperrbildschirmTests.xctest */,
+				49C086462C5B90C500AF2F80 /* SperrbildschirmUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49C0862E2C5B90C300AF2F80 /* Sperrbildschirm */ = {
+			isa = PBXGroup;
+			children = (
+				49C0862F2C5B90C300AF2F80 /* SperrbildschirmApp.swift */,
+				49C086312C5B90C300AF2F80 /* ContentView.swift */,
+				49C086332C5B90C500AF2F80 /* Assets.xcassets */,
+				49C086352C5B90C500AF2F80 /* Preview Content */,
+			);
+			path = Sperrbildschirm;
+			sourceTree = "<group>";
+		};
+		49C086352C5B90C500AF2F80 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				49C086362C5B90C500AF2F80 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		49C0863F2C5B90C500AF2F80 /* SperrbildschirmTests */ = {
+			isa = PBXGroup;
+			children = (
+				49C086402C5B90C500AF2F80 /* SperrbildschirmTests.swift */,
+			);
+			path = SperrbildschirmTests;
+			sourceTree = "<group>";
+		};
+		49C086492C5B90C500AF2F80 /* SperrbildschirmUITests */ = {
+			isa = PBXGroup;
+			children = (
+				49C0864A2C5B90C500AF2F80 /* SperrbildschirmUITests.swift */,
+				49C0864C2C5B90C500AF2F80 /* SperrbildschirmUITestsLaunchTests.swift */,
+			);
+			path = SperrbildschirmUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49C0862B2C5B90C300AF2F80 /* Sperrbildschirm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49C086502C5B90C500AF2F80 /* Build configuration list for PBXNativeTarget "Sperrbildschirm" */;
+			buildPhases = (
+				49C086282C5B90C300AF2F80 /* Sources */,
+				49C086292C5B90C300AF2F80 /* Frameworks */,
+				49C0862A2C5B90C300AF2F80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sperrbildschirm;
+			productName = Sperrbildschirm;
+			productReference = 49C0862C2C5B90C300AF2F80 /* Sperrbildschirm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		49C0863B2C5B90C500AF2F80 /* SperrbildschirmTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49C086532C5B90C500AF2F80 /* Build configuration list for PBXNativeTarget "SperrbildschirmTests" */;
+			buildPhases = (
+				49C086382C5B90C500AF2F80 /* Sources */,
+				49C086392C5B90C500AF2F80 /* Frameworks */,
+				49C0863A2C5B90C500AF2F80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49C0863E2C5B90C500AF2F80 /* PBXTargetDependency */,
+			);
+			name = SperrbildschirmTests;
+			productName = SperrbildschirmTests;
+			productReference = 49C0863C2C5B90C500AF2F80 /* SperrbildschirmTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		49C086452C5B90C500AF2F80 /* SperrbildschirmUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49C086562C5B90C500AF2F80 /* Build configuration list for PBXNativeTarget "SperrbildschirmUITests" */;
+			buildPhases = (
+				49C086422C5B90C500AF2F80 /* Sources */,
+				49C086432C5B90C500AF2F80 /* Frameworks */,
+				49C086442C5B90C500AF2F80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49C086482C5B90C500AF2F80 /* PBXTargetDependency */,
+			);
+			name = SperrbildschirmUITests;
+			productName = SperrbildschirmUITests;
+			productReference = 49C086462C5B90C500AF2F80 /* SperrbildschirmUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49C086242C5B90C300AF2F80 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					49C0862B2C5B90C300AF2F80 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					49C0863B2C5B90C500AF2F80 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 49C0862B2C5B90C300AF2F80;
+					};
+					49C086452C5B90C500AF2F80 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 49C0862B2C5B90C300AF2F80;
+					};
+				};
+			};
+			buildConfigurationList = 49C086272C5B90C300AF2F80 /* Build configuration list for PBXProject "Sperrbildschirm" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 49C086232C5B90C300AF2F80;
+			productRefGroup = 49C0862D2C5B90C300AF2F80 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49C0862B2C5B90C300AF2F80 /* Sperrbildschirm */,
+				49C0863B2C5B90C500AF2F80 /* SperrbildschirmTests */,
+				49C086452C5B90C500AF2F80 /* SperrbildschirmUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49C0862A2C5B90C300AF2F80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49C086372C5B90C500AF2F80 /* Preview Assets.xcassets in Resources */,
+				49C086342C5B90C500AF2F80 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49C0863A2C5B90C500AF2F80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49C086442C5B90C500AF2F80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49C086282C5B90C300AF2F80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49C086322C5B90C300AF2F80 /* ContentView.swift in Sources */,
+				49C086302C5B90C300AF2F80 /* SperrbildschirmApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49C086382C5B90C500AF2F80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49C086412C5B90C500AF2F80 /* SperrbildschirmTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49C086422C5B90C500AF2F80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49C0864D2C5B90C500AF2F80 /* SperrbildschirmUITestsLaunchTests.swift in Sources */,
+				49C0864B2C5B90C500AF2F80 /* SperrbildschirmUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		49C0863E2C5B90C500AF2F80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49C0862B2C5B90C300AF2F80 /* Sperrbildschirm */;
+			targetProxy = 49C0863D2C5B90C500AF2F80 /* PBXContainerItemProxy */;
+		};
+		49C086482C5B90C500AF2F80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49C0862B2C5B90C300AF2F80 /* Sperrbildschirm */;
+			targetProxy = 49C086472C5B90C500AF2F80 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		49C0864E2C5B90C500AF2F80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		49C0864F2C5B90C500AF2F80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49C086512C5B90C500AF2F80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Sperrbildschirm/Preview Content\"";
+				DEVELOPMENT_TEAM = 5UAB2YDZ59;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mahshad.Sperrbildschirm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		49C086522C5B90C500AF2F80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Sperrbildschirm/Preview Content\"";
+				DEVELOPMENT_TEAM = 5UAB2YDZ59;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mahshad.Sperrbildschirm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		49C086542C5B90C500AF2F80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5UAB2YDZ59;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mahshad.SperrbildschirmTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sperrbildschirm.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Sperrbildschirm";
+			};
+			name = Debug;
+		};
+		49C086552C5B90C500AF2F80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5UAB2YDZ59;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mahshad.SperrbildschirmTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sperrbildschirm.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Sperrbildschirm";
+			};
+			name = Release;
+		};
+		49C086572C5B90C500AF2F80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5UAB2YDZ59;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mahshad.SperrbildschirmUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Sperrbildschirm;
+			};
+			name = Debug;
+		};
+		49C086582C5B90C500AF2F80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5UAB2YDZ59;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mahshad.SperrbildschirmUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Sperrbildschirm;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49C086272C5B90C300AF2F80 /* Build configuration list for PBXProject "Sperrbildschirm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49C0864E2C5B90C500AF2F80 /* Debug */,
+				49C0864F2C5B90C500AF2F80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49C086502C5B90C500AF2F80 /* Build configuration list for PBXNativeTarget "Sperrbildschirm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49C086512C5B90C500AF2F80 /* Debug */,
+				49C086522C5B90C500AF2F80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49C086532C5B90C500AF2F80 /* Build configuration list for PBXNativeTarget "SperrbildschirmTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49C086542C5B90C500AF2F80 /* Debug */,
+				49C086552C5B90C500AF2F80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49C086562C5B90C500AF2F80 /* Build configuration list for PBXNativeTarget "SperrbildschirmUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49C086572C5B90C500AF2F80 /* Debug */,
+				49C086582C5B90C500AF2F80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49C086242C5B90C300AF2F80 /* Project object */;
+}
